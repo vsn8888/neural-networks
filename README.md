@@ -2,8 +2,16 @@
 
 This repository documents my experiments involving neural networks.
 
-## Regression Neural Network from Scratch (July 2024)
+## Neural Network for Regression from Scratch
 
-I constructed a neural network for linear regression to noisy, synthetic data. Since I wanted to gain a deeper understanding of neural networks, I implemented a neural network and associated training framework (backpropagation and gradient descent) using only Numpy. Whilst the neural network is able to learn the relationship quite well, it overfits quite easily and sometimes converges to local minima (an inherent disadvantage of the gradient descent algorithm). 
+I constructed a neural network for (linear) regression to noisy, synthetic data using only Numpy because I wanted to gain a deeper understanding of the mathematics behind neural networks. This involved implementing a simple neural network architecture and algorithms for forward propagation, backpropagation, and training (using the gradient descent algorithm).
 
 Jupyter notebook: [neural_network_fundamentals.ipynb](neural_network_fundamentals.ipynb)
+
+## References
+
+1. Michael A. Nielsen, ["Neural Networks and Deep Learning"](http://neuralnetworksanddeeplearning.com/index.html), Determination Press, 2015
+
+2. Samson Zhang, ["Understanding the math behind neural networks by building one from scratch (no TF/Keras, just numpy)"](https://web.archive.org/web/20210124091644/https://www.samsonzhang.com/2020/11/24/understanding-the-math-behind-neural-networks-by-building-one-from-scratch-no-tf-keras-just-numpy.html), 2020
+
+
