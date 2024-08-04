@@ -8,10 +8,4 @@ I constructed a neural network for (linear) regression to noisy, synthetic data 
 
 Jupyter notebook: [neural_network_fundamentals.ipynb](neural_network_fundamentals.ipynb)
 
-## References
-
-1. Michael A. Nielsen, ["Neural Networks and Deep Learning"](http://neuralnetworksanddeeplearning.com/index.html), Determination Press, 2015
-
-2. Samson Zhang, ["Understanding the math behind neural networks by building one from scratch (no TF/Keras, just numpy)"](https://web.archive.org/web/20210124091644/https://www.samsonzhang.com/2020/11/24/understanding-the-math-behind-neural-networks-by-building-one-from-scratch-no-tf-keras-just-numpy.html), 2020
-
 
