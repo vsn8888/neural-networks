@@ -26,7 +26,7 @@ with initial conditions $\theta(0) = \theta_0$ and $\omega(0) = \omega_0$
 
 The numerical solution is shown below, and will be assumed to be the ground truth.
 
-![Plot of numerical solution](output\numerical_plot.png)
+![Plot of numerical solution](output/numerical_plot.png)
 
 ![Numerical solution animation](output/numerical_results_m_1_l_1_b_1.gif)
 
