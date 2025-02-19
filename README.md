@@ -8,4 +8,10 @@ I constructed a neural network for (linear) regression to noisy, synthetic data 
 
 Jupyter notebook: [neural_network_fundamentals.ipynb](neural_network_fundamentals.ipynb)
 
+### Simulating Pendulum Motion using a Physics Informed Neural Network
+
+I used a Physics Informed Neural Network (PINN) to numerically simulate solutions to the nonlinear pendulum ODE. Physics was incorporated into the training process by rewarding solutions whose behaviour satisfied the ODE at a set of randomly generated collocation points. The solutions computed using the PINN were benchmarked against numerical solutions computed using the RK4 algorithm. This technique can be generalised to numerically solve ODEs and PDEs.
+
+Jupyter notebook: [pendulum/pendulum.ipynb](pendulum/pendulum.ipynb)
+
 
